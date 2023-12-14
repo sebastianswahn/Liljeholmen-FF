@@ -653,6 +653,14 @@ video {
   width: 100vw;
 }
 
+.w-3\/12 {
+  width: 25%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -746,6 +754,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-4 {
