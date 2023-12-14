@@ -540,10 +540,24 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+<<<<<<< HEAD
+=======
+.fixed {
+  position: fixed;
+}
+
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 .absolute {
   position: absolute;
 }
 
+<<<<<<< HEAD
+=======
+.relative {
+  position: relative;
+}
+
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 .bottom-0 {
   bottom: 0px;
 }
@@ -552,13 +566,32 @@ video {
   right: 0px;
 }
 
+<<<<<<< HEAD
+=======
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mt-6 {
@@ -569,40 +602,71 @@ video {
   display: flex;
 }
 
+<<<<<<< HEAD
 .h-20 {
   height: 5rem;
 }
 
 .h-28 {
   height: 7rem;
+=======
+.h-24 {
+  height: 6rem;
+}
+
+.h-32 {
+  height: 8rem;
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 }
 
 .h-36 {
   height: 9rem;
 }
 
-.h-screen {
-  height: 100vh;
+.h-48 {
+  height: 12rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-1\/3 {
   width: 33.333333%;
 }
 
+<<<<<<< HEAD
 .w-1\/5 {
   width: 20%;
+=======
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-32 {
+  width: 8rem;
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 }
 
 .w-4\/5 {
   width: 80%;
 }
 
+<<<<<<< HEAD
 .w-screen {
   width: 100vw;
 }
 
 .flex-grow {
   flex-grow: 1;
+=======
+.w-full {
+  width: 100%;
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 }
 
 .flex-row {
@@ -613,12 +677,42 @@ video {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
+=======
+.items-start {
+  align-items: flex-start;
+}
+
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 .items-center {
   align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+.justify-start {
+  justify-content: flex-start;
+}
+
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .rounded-xl {
@@ -633,11 +727,24 @@ video {
   border-style: solid;
 }
 
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
 .border-gray-500 {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
+<<<<<<< HEAD
+=======
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
@@ -653,6 +760,14 @@ video {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
+=======
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 .p-4 {
   padding: 1rem;
 }
@@ -666,8 +781,28 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-2xl {
@@ -675,7 +810,41 @@ video {
   line-height: 2rem;
 }
 
+<<<<<<< HEAD
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+=======
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.hover\:bg-red-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+>>>>>>> Detta-är-nytt-med-fungerande-tailwind-
 }
