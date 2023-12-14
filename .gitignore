@@ -1,5 +1,5 @@
-node_modules/
 # .gitignore
+node_modules/
 
 # Ignore system files
 .DS_Store
