@@ -858,6 +858,10 @@ form button:active{
   background-color: rgb(30, 81, 220);
 }
 
+.adress-section{
+  padding: 2rem;
+}
+
 .hover\:bg-red-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(127 29 29 / var(--tw-bg-opacity));
