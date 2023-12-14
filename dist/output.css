@@ -629,6 +629,9 @@ video {
   width: 33.333333%;
 }
 
+.w-16 {
+  width: 4rem;
+}
 .w-3\/12 {
   width: 25%;
 }
@@ -863,10 +866,15 @@ form button:active{
   background-color: rgb(30, 81, 220);
 }
 
+.adress-section{
+  text-align: center;
+}
+
 .hover\:bg-red-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(127 29 29 / var(--tw-bg-opacity));
 }
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
