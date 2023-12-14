@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
+      container: {
+        center: true,
+      },
       xxs: "330px",
       // => @media (min-width: 330px) { ... }
 
@@ -31,6 +34,10 @@ module.exports = {
 
       "3xl": "2000px",
       // => @media (min-width: 2000px) { ... }
+      fontFamily: {
+        sans: ['Graphik', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
+      },
 
       extend: {},
     },
