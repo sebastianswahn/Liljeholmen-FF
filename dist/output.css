@@ -629,20 +629,16 @@ video {
   width: 33.333333%;
 }
 
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-3\/5 {
-  width: 60%;
+.w-3\/12 {
+  width: 25%;
 }
 
 .w-32 {
   width: 8rem;
 }
 
-.w-4\/5 {
-  width: 80%;
+.w-9\/12 {
+  width: 75%;
 }
 
 .w-full {
@@ -651,14 +647,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-3\/12 {
-  width: 25%;
-}
-
-.w-9\/12 {
-  width: 75%;
 }
 
 .flex-grow {
@@ -727,16 +715,6 @@ video {
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
-.border-green-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(187 247 208 / var(--tw-border-opacity));
-}
-
-.border-green-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(22 163 74 / var(--tw-border-opacity));
-}
-
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -760,10 +738,6 @@ video {
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .p-2 {
@@ -797,18 +771,6 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -845,6 +807,56 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.section{
+  display: grid;
+  justify-content: center;
+}
+
+form{
+  display: grid;
+  /* background-color: rgba(200, 177, 177, 0.519); */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0, 84, 133, 0.206);
+  width: clamp(260px, 80vw, 400px);
+}
+
+form input,
+form textarea,
+form select{
+  transition: 200ms;
+  margin-bottom: 1rem;
+  outline: 1px solid rgb(95, 95, 95);
+  border-radius: 3px;
+  padding: .3rem;
+  min-width: 100px;
+  background-color: whitesmoke;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus{
+  background-color: rgb(153, 178, 248);
+}
+
+form button{
+  margin-top: 1rem;
+  background-color: rgb(153, 178, 248);
+}
+
+form button:hover,
+form input:hover,
+form textarea:hover,
+form select:hover{
+  background-color: rgb(92, 133, 245);
+}
+
+form button:active{
+  background-color: rgb(30, 81, 220);
 }
 
 .hover\:bg-red-900:hover {
