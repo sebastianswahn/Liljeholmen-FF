@@ -629,6 +629,9 @@ video {
   width: 33.333333%;
 }
 
+.w-16 {
+  width: 4rem;
+}
 .w-3\/12 {
   width: 25%;
 }
