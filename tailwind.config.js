@@ -2,6 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      sans: [
+        '"Inter var", sans-serif',
+        {
+          fontFeatureSettings: '"cv11", "ss01"',
+          fontVariationSettings: '"opsz" 32'
+        },
+      ],
+    },
     screens: {
       container: {
         center: true,
@@ -34,13 +43,11 @@ module.exports = {
 
       "3xl": "2000px",
       // => @media (min-width: 2000px) { ... }
-      fontFamily: {
-        sans: ['Graphik', 'sans-serif'],
-        serif: ['Merriweather', 'serif'],
-      },
 
       extend: {},
     },
-    plugins: [],
+    plugins: [
+      require('flowbite/plugin')
+  ]
   },
 };
