@@ -15,10 +15,6 @@ module.exports = {
       container: {
         center: true,
       },
-      xxs: "330px",
-      // => @media (min-width: 330px) { ... }
-
-      nav: "362px",
 
       xs: "475px",
       // => @media (min-width: 475px) { ... }
@@ -44,10 +40,16 @@ module.exports = {
       "3xl": "2000px",
       // => @media (min-width: 2000px) { ... }
 
-      extend: {},
+      extend: {
+        backgroundOpacity: {
+         '10': '0.1',
+         '20': '0.2',
+         '95': '0.95',
+        }
+      }
     },
     plugins: [
       require('flowbite/plugin')
   ]
   },
-};
+}
