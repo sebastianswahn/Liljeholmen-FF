@@ -49,12 +49,14 @@
     <div class="md:w-full text-center bg-scroll bg-no-repeat bg-cover bg-center sm:w-full" style="background-image: url('/src/images/frontpage-hero-fotboll.jpg')">
         <section class="md:p-36 p-12 bg-gradient-to-b from-black from-5%  to-transparent to-100%">
             <h2 class="font-extrabold md:text-5xl text-3xl pb-2 text-white drop-shadow-md">
-                <span class="font-bold text-xl block">Välkommen till</span> Liljeholmens fotbollsförbund
+                Kontakta oss
             </h2>
             <div class="inline-flex items-center justify-center w-full">
                 <hr class="w-64 h-1 my-8 bg-red-600 border-0 rounded ">
             </div>
-            <p class="md:text-3xl text-2xl mb-12 font-bold drop-shadow-md text-white">Med mångfald som ledord drivs denna <br>succéklubb med hjärta och själ sedan år 1950</p>
+            <p class="md:text-3xl text-2xl mb-12 font-bold drop-shadow-md text-white">
+                Kontakta oss angående klubbmedlemskap, kom i kontakt med tränare eller organistationen.
+            </p>
             <!--<img src="./images/Liljeholmen.jpeg" class="rounded-3xl object-cover w-full" alt="Fotbollsbild från Liljeholmen FF" height="500" width="500">-->
         </section>
     </div>
@@ -63,6 +65,50 @@
 
         <div class="md:w-9/12 sm:pt-8 sm:block mb-10">
 
+            <h3 class="font-bold text-2xl pt-10 text-white">
+                Kontaktformulär
+            </h3>
+            <div class="inline-flex items-center w-full">
+                <hr class="w-24 h-1 my-8 bg-red-600 border-0 rounded ">
+            </div>
+            <section>
+                <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+                    <form action="#" class="space-y-8">
+                        <div>
+                            <label for="name" class="block mb-2 text-sm font-medium text-white">Ditt namn</label>
+                            <input type="text" id="name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="För- och efternamn" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-2 text-sm font-medium text-white">Din e-post</label>
+                            <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-rose-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="din@email.se" required>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label for="message" class="block mb-2 text-sm font-medium text-white">Ditt meddelande</label>
+                            <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Skriv ditt meddelande..."></textarea>
+                        </div>
+                        <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg sm:w-fit hover:bg-white hover:text-black focus:ring-4 focus:outline-none focus:ring-primary-300">Skicka meddelande</button>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <h3 class="font-bold text-2xl pt-10 text-white">Adress</h3>
+                <div class="inline-flex items-center w-full">
+                    <hr class="w-24 h-1 my-8 bg-red-600 border-0 rounded ">
+                </div>
+                <p>Liljeholmen FF</p>
+                <p>Box 123</p>
+                <p>123 45 Liljeholmen</p>
+
+                <h3 class="font-bold text-2xl mt-10 pt-10 text-white">Ring</h3>
+                <div class="inline-flex items-center w-full">
+                    <hr class="w-24 h-1 my-8 bg-red-600 border-0 rounded ">
+                </div>
+                <p>+46 768 88 88 88</p>
+                <p class="mt-5"><a href="tel:+467688888888">
+                 Ring oss ☎
+                </a></p>
+            </section>
+              <!-- Gammal formulär
             <section class="flex flex-col">
               <section class="section">
                 <form>
@@ -80,73 +126,7 @@
                   <textarea name="message" id="message" cols="30" rows="10" maxlength="500"></textarea>
                   <input type="submit" value="Skicka" />
                 </form>
-              </section>
-              <section>
-                <h3>Adress</h3>
-                <p>Liljeholmen FF</p>
-                <p>Box 123</p>
-                <p>123 45 Liljeholmen</p>
-                <a href="tel:+467688888888">
-                 Ring ☎
-              </a>
-              <a href="mailto:stolta.liljan@gmail.com">
-                 Maila ✉
-              </a>
-              </section>
-                <article class="p-2">
-                    <h3 class="font-bold text-2xl pt-10 text-white">
-                        Kommande event
-                    </h3>
-                    <div class="inline-flex items-center w-full">
-                        <hr class="w-24 h-1 my-8 bg-red-600 border-0 rounded ">
-                    </div>
-                    <h4 class="font-bold text-md pb-1 text-red-400 text-xl">
-                        Lucia cup 13/12
-                    </h4>
-                    <p class="pb-6">
-                        En heldag med matcher och aktiviteter för hela familjen med start klockan 10:00. Det kommer att bjudas på pepparkakor och värmande glögg. Tomten är på plats, redo att ta emot barnens önskelistor. Glöm inte att ta med tomteluvan/luciakronan.
-                    </p>
-                    <h4 class="font-bold text-md pb-1 text-red-400 text-xl">
-                        Nyårsbollen 31/12
-                    </h4>
-                    <p>
-                        Den festligaste matchen detta år! Det utlovas fyrverkerier, pompa och ståt! Förutom forbollsskorna rekommenderas dansskorna att medtas. Planen kommer efeter avslutad match förvandlas till det största discogolvet någonsin skodat. Storst tack till ljud och ljus AB för episk spons! 
-                    </p>
-                </article>
-                <article class="p-2">
-                    <h3 class="font-bold text-2xl pt-10 text-white">
-                        Nyheter
-                    </h3>
-                    <div class="inline-flex items-center w-full">
-                        <hr class="w-24 h-1 my-8 bg-red-600 border-0 rounded ">
-                    </div>
-                    <h4 class="font-bold text-md pb-1 text-red-400 text-xl">
-                        2024 år medlemskap
-                    </h4>
-                    <p class="pb-6">
-                        Redan nu kan du förnya ditt medlemskap för 2024. Förutom rösträtt på årsmötet kommer du även få ta del av exklusiva medlemsmöten och aktiviteter.
-                    </p>
-                    <h4 class="font-bold text-md pb-1 text-red-400 text-xl">
-                        Omklädningsrummen
-                    </h4>
-                    <p class="pb-6">
-                        Nu är omklädningsrummen färdigbyggda. Det är med stor glädje vi kan meddela att vi har fått en ny sponsor som har stått för kostnaden. Stort tack till byggfirma AB för ert stöd!
-                    </p>
-                </article>
-                <article>
-                    <h3 class="font-bold text-2xl pt-10 text-white">Lagbilder</h3>
-                    <div class="inline-flex items-center w-full">
-                        <hr class="w-24 h-1 my-8 bg-red-600 border-0 rounded ">
-                    </div>
-                    <h4 class="font-bold text-md pb-1 text-red-400 text-xl text-center mb-5">Herrlaget A</h4>
-                    <img src="/src/images/herrlaget-liljeholmens-if-desktop.jpg" alt="Herrlaget Liljeholmens FF" loading="lazy">
-
-                    <h4 class="font-bold text-md pb-1 text-red-400 text-xl text-center mb-5 mt-10">Damlaget A</h4>
-                    <img src="/src/images/damlaget-liljehjolmens-if-desktop.avif" alt="Damlaget Liljeholmens FF" loading="lazy">
-
-                    <h4 class="font-bold text-md pb-1 text-red-400 text-xl text-center mb-5 mt-10">Juniorlaget</h4>
-                    <img src="/src/images/junorlaget-liljeholmens-if-desktop.jpg" alt="Juniorlaget Liljeholmens FF" loading="lazy">
-                </article>
+              </section>-->
             </section>
         </div>
 
@@ -204,6 +184,9 @@
         <small>sedan 1950</small>
     </footer>
 </div>
+
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
 
