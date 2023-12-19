@@ -675,6 +675,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -689,6 +693,10 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .block {
@@ -1252,60 +1260,6 @@ form button:active{
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .md\:container {
-    width: 100%;
-  }
-
-  @media (min-width: 330px) {
-    .md\:container {
-      max-width: 330px;
-    }
-  }
-
-  @media (min-width: 475px) {
-    .md\:container {
-      max-width: 475px;
-    }
-  }
-
-  @media (min-width: 640px) {
-    .md\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .md\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .md\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .md\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .md\:container {
-      max-width: 1536px;
-    }
-  }
-
-  @media (min-width: 2000px) {
-    .md\:container {
-      max-width: 2000px;
-    }
-  }
-}
-
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1356,11 +1310,6 @@ form button:active{
 }
 
 @media (min-width: 768px) {
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1411,16 +1360,12 @@ form button:active{
     padding: 0px;
   }
 
-  .md\:p-72 {
-    padding: 18rem;
+  .md\:p-36 {
+    padding: 9rem;
   }
 
   .md\:p-8 {
     padding: 2rem;
-  }
-
-  .md\:p-36 {
-    padding: 9rem;
   }
 
   .md\:text-3xl {
