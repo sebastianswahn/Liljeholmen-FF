@@ -32,13 +32,13 @@
               <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-semibold text-base flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                   <li>
-                    <a href="index.html" class="block py-2 px-5 bg-red-700 rounded text-white" aria-current="page">Hem</a>
+                    <a href="index.html" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-600">Hem</a>
                   </li>
                   <li>
-                    <a href="om-oss.html" class="block py-2 px-3 text-white rounded hover:bg-gray-100  md:hover:bg-transparent md:border-0 md:hover:text-red-600">Om oss</a>
+                    <a href="om-oss.html" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-600">Om oss</a>
                   </li>
                   <li>
-                    <a href="kontakt.html" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-600">Kontakt</a>
+                    <a href="kontakt.html" class="block py-2 px-5 bg-red-700 rounded text-white" aria-current="page">Kontakt</a>
                   </li>
                 </ul>
               </div>
@@ -64,7 +64,35 @@
         <div class="md:w-9/12 sm:pt-8 sm:block mb-10">
 
             <section class="flex flex-col">
-                
+              <section class="section">
+                <form>
+                  <label for="name">Namn</label>
+                  <input type="text" name="name" id="name" />
+                  <label for="email">E-post</label>
+                  <input type="email" name="email" id="email" />
+                  <label for="select">Terminspris</label>
+                  <select name="price" id="price">
+                    <option value="mini">4-8 år 800 kr</option>
+                    <option value="junior">9-14 år 1050 kr</option>
+                    <option value="senior">14-17år 1250 kr</option>
+                  </select>
+                  <label for="message">Meddelande</label>
+                  <textarea name="message" id="message" cols="30" rows="10" maxlength="500"></textarea>
+                  <input type="submit" value="Skicka" />
+                </form>
+              </section>
+              <section>
+                <h3>Adress</h3>
+                <p>Liljeholmen FF</p>
+                <p>Box 123</p>
+                <p>123 45 Liljeholmen</p>
+                <a href="tel:+467688888888">
+                 Ring ☎
+              </a>
+              <a href="mailto:stolta.liljan@gmail.com">
+                 Maila ✉
+              </a>
+              </section>
                 <article class="p-2">
                     <h3 class="font-bold text-2xl pt-10 text-white">
                         Kommande event
