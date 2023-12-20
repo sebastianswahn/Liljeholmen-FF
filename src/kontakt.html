@@ -82,10 +82,19 @@
                             <label for="email" class="block mb-2 text-sm font-medium text-white">Din e-post</label>
                             <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-rose-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="din@email.se" required>
                         </div>
+                        <div>
+                            <label for="price" class="block text-sm font-medium text-white">Välj terminpris</label>
+                            <select id="price" size="3" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                <option selected value="mini">4-8 år 800 kr</option>
+                                <option value="junior">9-14 år 1050 kr</option>
+                                <option value="senior">14-17år 1250 kr</option>
+                            </select>
+                        </div>
                         <div class="sm:col-span-2">
                             <label for="message" class="block mb-2 text-sm font-medium text-white">Ditt meddelande</label>
                             <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Skriv ditt meddelande..."></textarea>
                         </div>
+
                         <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg sm:w-fit hover:bg-white hover:text-black focus:ring-4 focus:outline-none focus:ring-primary-300">Skicka meddelande</button>
                     </form>
                 </div>
