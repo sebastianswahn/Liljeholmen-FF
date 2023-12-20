@@ -111,12 +111,27 @@
                         <hr class="w-24 h-1 my-8 bg-red-600 border-0 rounded ">
                     </div>
                     <h4 class="font-bold text-md pb-1 text-red-400 text-xl text-center mb-5">Herrlaget A</h4>
-                    <img src="/src/images/herrlaget-liljeholmens-if-desktop.jpg" alt="Herrlaget Liljeholmens FF" loading="lazy">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="/src/images/herrlaget-liljeholmens-if-mobile.jpg" />
+                        <source media="(min-width: 800px)" srcset="/src/images/herrlaget-liljeholmens-if-desktop.jpg" />
+                        <img src="/src/images/herrlaget-liljeholmens-if-mobile.jpg" alt="Herrlaget Liljeholmens FF" loading="lazy" />
+                    </picture>
 
                     <h4 class="font-bold text-md pb-1 text-red-400 text-xl text-center mb-5 mt-10">Damlaget A</h4>
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="/src/images/damlaget-liljeholmens-if-mobile.avif" />
+                        <source media="(min-width: 800px)" srcset="/src/images/damlaget-liljeholmens-if-desktop.avif" />
+                        <img src="/src/images/damlaget-liljeholmens-if-mobile.avif" alt="Damlaget Liljeholmens FF" loading="lazy" />
+                    </picture>
+
                     <img src="/src/images/damlaget-liljehjolmens-if-desktop.avif" alt="Damlaget Liljeholmens FF" loading="lazy">
 
                     <h4 class="font-bold text-md pb-1 text-red-400 text-xl text-center mb-5 mt-10">Juniorlaget</h4>
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="/src/images/herrlaget-liljeholmens-if-mobile.jpg" />
+                        <source media="(min-width: 800px)" srcset="/src/images/herrlaget-liljeholmens-if-desktop.jpg" />
+                        <img src="/src/images/herrlaget-liljeholmens-if-mobile.jpg" alt="Herrlaget Liljeholmens FF" loading="lazy" />
+                    </picture>
                     <img src="/src/images/junorlaget-liljeholmens-if-desktop.jpg" alt="Juniorlaget Liljeholmens FF" loading="lazy">
                 </article>
             </section>
